@@ -1,9 +1,9 @@
 package main
 
 import (
-	"app/mod1"
 	"fmt"
 
+	"github.com/alitari/kogo/src/app/mod1"
 	sample "github.com/elliotforbes/test-package"
 )
 
