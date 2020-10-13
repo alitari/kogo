@@ -1,8 +1,8 @@
 package main
 
 import (
+	"app/mod1"
 	"fmt"
-	"mod1"
 
 	sample "github.com/elliotforbes/test-package"
 )

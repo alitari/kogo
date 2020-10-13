@@ -1,8 +1,14 @@
 # ko with go
 
-## packages 
+Learn how to use ko with golang.
+
+## packages
 
 When `GOPATH` points additionally to project root, then all dirs under `src` are packages. Package `app` contains `main()` method.
+
+```bash
+export GOPATH=$GOPATH:$(pwd)
+```
 
 ## go basics
 
@@ -29,5 +35,6 @@ ko publish app -t v2
 ## k8s
 
 ```bash
-
+#create deployment from local import path
+ko resolve -f deployment_local.yaml -t v2
 ```
